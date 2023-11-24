@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cloud 9 Networks</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta property="og:title" content="Intense" />
+  <meta property="og:description" content="The smartest and the most flexible Bootstrap template" />
+  <meta property="og:image" content="images/banners/banner-01-620x360.png" />
+  <meta property="og:url" content="https://www.templatemonster.com/intense-multipurpose-html-template.html" />
+  <link rel="preload" href="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" as="image" />
+  <link rel="preload" href="components/base/base.css" as="style" />
+  <link rel="preload" href="components/base/core.js" as="script" />
+  <link rel="preload" href="components/base/script.js" as="script" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="components/base/base.css" />
+  <link rel="stylesheet" href="./services.css" />
+
+  <script src="components/base/core.js"></script>
+  <script src="components/base/script.js"></script>
+
+  <script src="https://your-cdn-host.com/path/to/elastic-apm-rum.umd.min.js" crossorigin></script>
+  <script>
+    elasticApm.init({
+      serviceName: "my-service-name",
+      serverUrl: "http://10.30.10.29:8200",
+    });
+  </script>
+</head>
+
+<body>
+  <div class="page">
+    <!--RD Navbar-->
+    <header class="section rd-navbar-wrap"
+      data-preset='{"title":"Navbar Default","category":"header","reload":true,"id":"navbar-default"}'>
+      <nav class="rd-navbar">
+        <div class="navbar-container">
+          <div class="navbar-cell">
+            <div class="navbar-panel">
+              <button class="navbar-switch int-hamburger novi-icon"
+                data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
+              <div class="navbar-logo">
+                <a class="navbar-logo-link" href="index.html"><img class="navbar-logo-default"
+                    src="images/logo-default-114x27.png" alt="Intense" width="100" height="27" /><img
+                    class="navbar-logo-inverse" src="images/logo-inverse-114x27.jpg" alt="Intense" width="114"
+                    height="27" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-cell navbar-spacer"></div>
+          <div class="navbar-cell navbar-sidebar">
+            <ul class="navbar-navigation rd-navbar-nav">
+              <li class="navbar-navigation-root-item active">
+                <a class="navbar-navigation-root-link" href="index.html">Home</a>
+              </li>
+              <li style="visibility: hidden">s</li>
+              <li class="navbar-navigation-root-item">
+                <a class="navbar-navigation-root-link" href="#">Products</a>
+                <ul style="font-size: medium" class="navbar-navigation-dropdown rd-navbar-dropdown">
+                  <li class="navbar-navigation-back">
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link"
+                      href="Data-Center-Infrastrucutre-Build.html">Infrastructure Build
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="Unified_Monitoring.html">Unified Monitoring
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="TechnologySolutions.html">Technology Solutions
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="ConsultingServices.html">Consulting Services
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li style="visibility: hidden">s</li>
+
+              <!-- <li style="visibility: hidden;" class="navbar-navigation-root-item">
+                <a class="navbar-navigation-root-link" href="#">Services</a>
+                <ul style="font-size: medium" class="navbar-navigation-dropdown rd-navbar-dropdown">
+                  <li class="navbar-navigation-back">
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="Managed_services.html">Managed Services
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="DC_Infrastructure_Audit.html">DC Infrastructure
+                      Audit
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="#">Smart Hands
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="#">Smart Net Total Care (SNTC)
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="#">DC Migration
+                    </a>
+                  </li>
+                </ul>
+              </li> -->
+              <li class="navbar-navigation-root-item">
+                <a class="navbar-navigation-root-link" href="#">About Us</a>
+                <ul style="align-items: end; font-size: medium" class="navbar-navigation-dropdown rd-navbar-dropdown">
+                  <li class="navbar-navigation-back">
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="About-us.html">Who We Are</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link"
+                      href="Certifications-Partnerships.html">Certifications</a>
+                  </li>
+                </ul>
+              </li>
+              <li style="visibility: hidden" class="navbar-navigation-root-item">
+                <a class="navbar-navigation-root-link" href="#">Produ</a>
+                <ul style="font-size: medium" class="navbar-navigation-dropdown rd-navbar-dropdown">
+                  <li class="navbar-navigation-back">
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link"
+                      href="Data-Center-Infrastrucutre-Build.html">Infrastructure Build
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="Unified_Monitoring.html">Unified Monitoring
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="TechnologySolutions.html">Technology Solutions
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="ConsultingServices.html">Consulting Services
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro-->
+
+    <!-- class="section section-lg bg-gradient-animated text-center d-flex align-items-center min-vh-100 novi-background" -->
+    <!--------------------home first ---------->
+    <!-- <section
+        class="section section-lg text-start d-flex align-items-center min-vh-10 novi-background"
+        style="
+          background: url(https://media.gettyimages.com/id/167592868/vector/modern-abstract-background.jpg?s=2048x2048&w=gi&k=20&c=hXM9nvPUC3Z1JikAKwjEHfW7cHowIdp0qUDYNkvDSK4=)
+            no-repeat center center;
+          background-size: cover;
+          width: max-content;
+        "
+      > -->
+    <section class="section section-lg bg-image text-center d-flex align-items-center min-vh-100 novi-background"
+      style="background-image: url(./cover/9-watermark.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <div class="row justify-content-center novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: center">
+            <h1 style="color: white" class="sp1">AI Driven Infrastructure</h1>
+            <h6 style="color: white">
+              We specialize in building data center using AI Driven monitoring
+              capabilities
+            </h6>
+            <a class="btn btn-round btn-info" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-services" class="section section-lg bg-transparent pended-element novi-background"
+      data-preset='{"title":"Features","category":"blurb, tab","reload":true,"id":"testimonials-3"}'>
+      <div id="services" class="container">
+        <h2 class="text-center animated fadeIn" data-animate='{"class":"fadeIn"}'>
+          Our Services
+        </h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contents">
+              <div class="box">
+                <h6 id="build">
+                  <a href="Data-Center-Infrastrucutre-Build.html">Infrastructure Build</a>
+                </h6>
+                <span>
+                  Full life cycle of service offering to build a new or
+                  optimize an existing Data Center Infrastructure
+                </span>
+              </div>
+              <div class="box">
+                <h6 id="monitor">
+                  <a href="Unified_Monitoring.html">Unified Monitoring</a>
+                </h6>
+                <span>
+                  Leverage the power of Enterprise class Open source platform
+                  to be AI ready
+                </span>
+              </div>
+              <div class="box">
+                <h6 id="tech">
+                  <a href="TechnologySolutions.html">Technology Solutions</a>
+                </h6>
+                <span> TechnologySolutions </span>
+              </div>
+              <div class="box">
+                <h6 id="cable">
+                  <a href="ConsultingServices.html">Consulting Services</a>
+                </h6>
+                <span>
+                  Design, Build, operate and Managed services for the digital
+                  transformation
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 serviceImg">
+            <img id="services_image" class="shadow-lg"
+              src="https://www.redspider-design.com/workspace/html/C9/img/HAC_.gif" alt="" width="1280" height="800" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-lg novi-background" style="background-color: #fafafa"
+      data-preset='{"title":"Flotcharts","category":"chart","reload":true,"id":"flotcharts"}'>
+      <div class="container">
+        <h2 class="text-center animated fadeIn" data-animate='{"class":"fadeIn"}'>
+          Delivery Methodology
+        </h2>
+        <div>
+          <img src="./images/Delivery Methodology.gif" alt="Delivery Methodology" />
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------------------- user------------------ -->
+
+    <!-- ------------------- partners ---------------------- -->
+
+    <section style="background-color: #fff" class="section section-lg bg-200 text-center novi-background"
+      data-preset='{"title":"Clients","category":"partner","reload":true,"id":"clients-2"}'>
+      <div class="container">
+        <h2 data-animate='{"class":"fadeInUp"}' class="animated fadeInUp">
+          We Worked With Trusted Partners
+        </h2>
+      </div>
+      <div class="owl-carousel owl-style-4 owl-loaded owl-drag"
+        data-owl='{"margin":80,"loop":true,"autoWidth":true,"autoplayTimeout":4500,"autoplaySpeed":4500,"slideTransition":"linear"}'
+        data-items="9">
+        <div class="owl-stage-outer">
+          <div class="owl-stage" style="
+                transform: translate3d(-3658px, 0px, 0px);
+                transition: all 3.5s linear 0s;
+                width: 6408px;
+              ">
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/dell.svg" data-src="images/client/dell.svg" alt="" width="130"
+                height="41" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/raritan.png" data-src="images/client/raritan.png" alt=""
+                width="180" height="49" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/cisco-ar21.svg" data-src="images/client/cisco-ar21.svg" alt=""
+                width="180" height="49" />
+            </div>
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/legrand.png" data-src="images/client/legrand.png" alt=""
+                width="180" height="49" />
+            </div>
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/redhat.png" data-src="images/client/redhat.png" alt=""
+                width="180" height="49" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/Corning.svg" data-src="images/client/Corning.svg" alt=""
+                width="180" height="49" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/cpi.svg" data-src="images/client/cpi.svg" alt="" width="180"
+                height="49" />
+            </div>
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/Vertiv_logo.svg" data-src="images/client/Vertiv_logo.svg" alt=""
+                width="180" height="49" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/CommScope_logo.svg" data-src="images/client/CommScope_logo.svg"
+                alt="" width="180" height="49" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/HP.svg" data-src="images/client/HP.svg" alt="" width="80"
+                height="39" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/elastic-ar21.svg" data-src="images/client/elastic-ar21.svg"
+                alt="" width="180" height="49" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/grafana-ar21.svg" data-src="images/client/grafana-ar21.svg"
+                alt="" width="180" height="49" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="owl-nav disabled">
+        <button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation"
+          class="owl-next"></button>
+      </div>
+      <div class="owl-dots disabled"></div>
+    </section>
+    <!-- --------------------------customer-------------------- -->
+    <section style="background-color: #fafafa" class="section section-lg text-center novi-background"
+      data-preset='{"title":"Clients","category":"partner","reload":true,"id":"clients-2"}'>
+      <div class="container">
+        <h2 data-animate='{"class":"fadeInUp"}' class="animated fadeInUp">
+          Our Customers
+        </h2>
+      </div>
+      <div class="owl-carousel owl-style-4 owl-loaded owl-drag"
+        data-owl='{"margin":80,"loop":true,"autoWidth":true,"autoplayTimeout":4500,"autoplaySpeed":4500,"slideTransition":"linear"}'
+        data-items="9">
+        <div class="owl-stage-outer">
+          <div class="owl-stage" style="
+                transform: translate3d(-3658px, 0px, 0px);
+                transition: all 3.5s linear 0s;
+                width: 6408px;
+              ">
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/dell.svg" data-src="images/client/dell.svg" alt="" width="130"
+                height="41" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/cisco-ar21.svg" data-src="images/client/cisco-ar21.svg" alt=""
+                width="180" height="49" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/HP.svg" data-src="images/client/HP.svg" alt="" width="80"
+                height="39" />
+            </div>
+
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/microsoft-logo.svg" data-src="images/client/microsoft-logo.svg"
+                alt="" width="180" height="49" />
+            </div>
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/du-company-logo-1.svg"
+                data-src="images/client/du-company-logo-1.svg" alt="" width="80" height="49" />
+            </div>
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/etisalat-1.svg" data-src="images/client/etisalat-1.svg" alt=""
+                width="80" height="49" />
+            </div>
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/dubai-islamic-bank-logo-vector 1.svg"
+                data-src="images/client/dubai-islamic-bank-logo-vector 1.svg" alt="" width="180" height="49" />
+            </div>
+            <div class="owl-item active" style="width: auto; margin-right: 80px">
+              <img class="lazy-img" src="images/client/emirates-airlines 1.svg"
+                data-src="images/client/emirates-airlines 1.svg" alt="" width="180" height="49" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="owl-nav disabled">
+        <button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation"
+          class="owl-next"></button>
+      </div>
+      <div class="owl-dots disabled"></div>
+    </section>
+
+    <!-- ---------------------------------sapce---------------- -->
+    <section class="section section-md text-center text-lg-start novi-background"
+      data-preset='{"title":"Call To Action","category":"call to action","reload":true,"id":"call-to-action-1"}'>
+      <div class="container"></div>
+    </section>
+
+    <!-- Footer default extended-->
+    <footer id="section7"
+      class="section fp-auto-height-responsive fp-auto-height footer footer-sm text-400 context-dark novi-background"
+      style="background: #05233f"
+      data-preset='{"title":"Footer Default","category":"footer","reload":true,"id":"footer-default"}'>
+      <div class="container">
+        <div class="row row-30 justify-content-lg-between novi-disabled">
+          <div class="col-lg-4">
+            <!-- Logo-->
+            <div style="width: 200px" class="logo">
+              <a class="logo-link" href="index.html">
+                <img src="images/logo-2 1.svg" width="170" height="78.34" /></a>
+
+              <div class="offset-sm media media-xxs text-400">
+                <div class="media-body">
+                  <ul class="list small list-contact">
+                    <li>
+                      <p style="color: #dcd6d6">
+                        <span class="icon icon-xs int-marker"></span>
+                        <a href="https://goo.gl/maps/mjTfKhaM5Bn5teXL7" target="_blank" rel="noopener noreferrer"
+                          style="color: #dcd6d6">
+                          Office No 2 &nbsp; &nbsp; &nbsp;
+                          <br />
+                          &nbsp; &nbsp; &nbsp; High Bay Building <br />
+                          &nbsp; &nbsp; &nbsp; Dubai Silicon Oasis <br />
+                          &nbsp; &nbsp; &nbsp; Dubai, UAE
+                          <!-- Office No 2, High Bay Building Dubai Silicon Oasis
+                            Dubai, UAE -->
+                        </a>
+                      </p>
+                    </li>
+                    <li class="list-contact-item">
+                      <a style="color: #dcd6d6" class="list-contact-link" href="tel:0097145486844"><span
+                          class="icon icon-xs int-phone"></span>&nbsp;&nbsp;+971 4 548 6844 <br /></a>
+                      <a style="color: #dcd6d6" class="list-contact-link" href="mailto:info@cloud9stack.io"><span
+                          class="icon icon-xs int-email"></span>&nbsp;&nbsp;info@cloud9stack.io <br /></a>
+                      <div>
+                        <!-- <a
+                            ><span class="icon icon-xs int-email"></span>
+                            info@cloud9stack.io
+                          </a> -->
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+          </div>
+          <div class="col-auto col-xs-6 col-sm-4 col-md-3 col-lg-2"></div>
+
+          <div class="col-auto col-xs-6 col-sm-4 col-md-3 col-lg-2">
+            <h6 style="color: #dcd6d6">About Us</h6>
+            <ul style="font-size: medium" class="list list-xl small fw-normal">
+              <li class="list-item">
+                <a class="list-link" href="About-us.html">Who We Are</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="Certifications-Partnerships.html">Certifications</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto col-xs-6 col-sm-4 col-md-3 col-lg-2">
+            <h6 style="color: #dcd6d6">Products</h6>
+            <ul style="font-size: medium" class="list list-xl small fw-normal">
+              <li class="list-item">
+                <a class="list-link" href="Data-Center-Infrastrucutre-Build.html">Infrastrucutre Build</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="Unified_Monitoring.html">Unified Monitoring
+                </a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="TechnologySolutions.html">Technology Solutions
+                </a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="ConsultingServices.html">Consulting Services
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto col-xs-6 col-sm-4 col-md-3 col-lg-2">
+            <h6 style="color: #dcd6d6">Services</h6>
+            <ul style="font-size: medium" class="list list-xl small fw-normal">
+              <li class="list-item">
+                <a class="list-link" href="Managed_services.html">Managed Services</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="DC_Infrastructure_Audit.html">DC Infrastructure Audit</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="smart-hands.html">Smart Hands</a>
+              </li>
+
+              <li class="list-item">
+                <a class="list-link" href="dc-migration.html">DC Migration</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="divider footer-divider"></div>
+        <div class="row row-15 align-items-center justify-content-between footer-panel novi-disabled">
+          <div class="col-auto">
+            <!-- Copyright-->
+            <p class="rights">
+              <span>© 2023 Cloud9 Networks Design by Cloud9 Networks. All site
+                rights are reserved
+              </span>
+            </p>
+          </div>
+          <!-- <div class="col-auto">
+              <div class="group-30 d-flex text-black">
+                <a
+                  class="icon icon-xs icon-social int-youtube novi-icon"
+                  href="#"
+                ></a
+                ><a
+                  class="icon icon-xs icon-social int-facebook novi-icon"
+                  href="#"
+                ></a
+                ><a
+                  class="icon icon-xs icon-social int-instagram novi-icon"
+                  href="#"
+                ></a
+                ><a
+                  class="icon icon-xs icon-social int-twitter novi-icon"
+                  href="#"
+                ></a
+                ><a
+                  class="icon icon-xs icon-social int-linkedin novi-icon"
+                  href="#"
+                ></a>
+              </div>
+            </div> -->
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Page Loader-->
+  <div class="page-loader" style="
+        background: rgb(174, 232, 238);
+        background: radial-gradient(
+          circle,
+          rgba(174, 232, 238, 1) 0%,
+          rgba(148, 187, 233, 1) 100%
+        );
+      ">
+    <svg class="page-loader-progress" x="0px" y="0px" width="180" height="180" viewBox="0 0 180 180">
+      <circle class="page-loader-circle" cx="90" cy="90" r="88"></circle>
+    </svg>
+    <div class="page-loader-inner">
+      <!-- <div class="page-loader-inner-side page-loader-inner-side-1">
+          <img
+            class="page-loader-logo"
+            src="images/logo-default-114x27.png"
+            alt=""
+            width="114"
+            height="27"
+            data-target=".page-loader-inner"
+          />
+        </div> -->
+      <div class="page-loader-inner-side page-loader-inner-side-2">
+        <img class="page-loader-logo" src="images/logo-default-114x27.png" alt="" width="114" height="27"
+          data-target=".page-loader-inner" />
+      </div>
+    </div>
+  </div>
+  <div class="notifications-area" id="notifications-area"></div>
+</body>
+<script>
+  const buildHeading = document.getElementById("build");
+  const monitorHeading = document.getElementById("monitor");
+  const techHeading = document.getElementById("tech");
+  const cableHeading = document.getElementById("cable");
+  buildHeading.addEventListener("mouseover", function handleMouseOver() {
+    $("#services_image").attr(
+      "src",
+      "https://www.redspider-design.com/workspace/html/C9/img/HAC_.gif"
+    );
+  });
+
+  monitorHeading.addEventListener("mouseover", function handleMouseOver() {
+    $("#services_image").attr("src", "/images/Unified Monitoring.gif");
+  });
+
+  techHeading.addEventListener("mouseover", function handleMouseOver() {
+    $("#services_image").attr(
+      "src",
+      "https://cdn.dribbble.com/users/26540/screenshots/1423680/screengrab01.gif"
+    );
+  });
+
+  cableHeading.addEventListener("mouseover", function handleMouseOver() {
+    $("#services_image").attr(
+      "src",
+      "/images/ConsultingServices_images/Consulting-Services-hover-1.gif"
+    );
+  });
+</script>
+
+</html>

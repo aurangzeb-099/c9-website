@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cloud 9 Networks</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta property="og:title" content="Intense" />
+  <meta property="og:description" content="The smartest and the most flexible Bootstrap template" />
+  <meta property="og:image" content="images/banners/banner-01-620x360.png" />
+  <meta property="og:url" content="https://www.templatemonster.com/intense-multipurpose-html-template.html" />
+  <link rel="preload" href="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" as="image" />
+  <link rel="preload" href="components/base/base.css" as="style" />
+  <link rel="preload" href="components/base/core.js" as="script" />
+  <link rel="preload" href="components/base/script.js" as="script" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="components/base/base.css" />
+  <link rel="stylesheet" href="./services.css" />
+  <script src="components/base/core.js"></script>
+  <script src="components/base/script.js"></script>
+
+  <script src="https://your-cdn-host.com/path/to/elastic-apm-rum.umd.min.js" crossorigin></script>
+  <script>
+    elasticApm.init({
+      serviceName: "my-service-name",
+      serverUrl: "http://10.30.10.29:8200",
+    });
+  </script>
+</head>
+
+<body>
+  <div class="page">
+    <!--RD Navbar-->
+    <header class="section rd-navbar-wrap"
+      data-preset='{"title":"Navbar Default","category":"header","reload":true,"id":"navbar-default"}'>
+      <nav class="rd-navbar">
+        <div class="navbar-container">
+          <div class="navbar-cell">
+            <div class="navbar-panel">
+              <button class="navbar-switch int-hamburger novi-icon"
+                data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
+              <div class="navbar-logo">
+                <a class="navbar-logo-link" href="index.html"><img class="navbar-logo-default"
+                    src="images/logo-default-114x27.png" alt="Intense" width="100" height="27" /><img
+                    class="navbar-logo-inverse" src="images/logo-inverse-114x27.jpg" alt="Intense" width="114"
+                    height="27" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-cell navbar-spacer"></div>
+          <div class="navbar-cell navbar-sidebar">
+            <ul class="navbar-navigation rd-navbar-nav">
+              <li class="navbar-navigation-root-item active">
+                <a class="navbar-navigation-root-link" href="index.html">Home</a>
+              </li>
+              <li class="navbar-navigation-root-item">
+                <a class="navbar-navigation-root-link" href="#">Products/Solutions</a>
+                <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                  <li class="navbar-navigation-back">
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="Data-Center-Infrastrucutre-Build.html">Data Center
+                      Infrastrucutre Build
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="Unified_Monitoring.html">Unified Monitoring
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="navbar-navigation-root-item">
+                <a class="navbar-navigation-root-link" href="#">Services</a>
+                <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                  <li class="navbar-navigation-back">
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="Managed_services.html">Managed Services
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="DC_Infrastructure_Audit.html">DC Infrastructure
+                      Audit
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="#">Smart Hands
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="#">Smart Net Total Care (SNTC)
+                    </a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="#">DC Migration
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar-navigation-root-item">
+                <a class="navbar-navigation-root-link" href="#">About Us</a>
+                <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                  <li class="navbar-navigation-back">
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="About-us.html">About Us (Who we are)</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="Certifications-Partnerships.html">Certifications &
+                      Partnerships</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="contact-us.html">Contact Us</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item">
+                    <a class="navbar-navigation-dropdown-link" href="career.html">Career</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-cell">
+            <div class="navbar-subpanel">
+              <div class="navbar-subpanel-item">
+                <div class="navbar-search">
+                  <div class="navbar-search-container">
+                    <form class="navbar-search-form" action="search-results.html" method="GET"
+                      data-rd-search='{"output":".navbar-search-results","mode":"live","liveResults":3,"template":"<h5 class=\"search-title\"><a target=\"_top\" href=\"#{href}\" class=\"search-link\">#{title}</a></h5><p>...#{token}...</p>"}'>
+                      <input class="navbar-search-input" type="text" placeholder="Enter search terms..."
+                        autocomplete="off" name="s" /><button
+                        class="navbar-search-btn int-search novi-icon"></button><button
+                        class="navbar-search-close search-switch int-close novi-icon" type="button"
+                        data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
+                    </form>
+                  </div>
+                </div>
+                <div class="navbar-search-results">No results</div>
+                <button class="navbar-button search-switch int-search novi-icon"
+                  data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- 1st-cover -->
+
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/1.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>1</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #000000" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #000000">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2nd cover -->
+
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/2.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>2</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #000000" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #000000">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3rd cover -->
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/3.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>3</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #ffffff" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #ffffff">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4th cover -->
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/4.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>4</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #000000" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #000000">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5th cover -->
+
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/5.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>5</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #fff" class="sp1">AI driven infrastructure</h1>
+            <h6 style="color: #fff">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6th cover -->
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/6.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>6</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #000000" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #000000">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7th cover -->
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/7.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>7</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #000000" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #000000">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8th cover -->
+
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/8.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>8</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #000000" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #000000">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9th cover -->
+
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/9.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>9</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #ffffff" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #ffffff">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10th cover -->
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/10.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>10</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #ffffff" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #ffffff">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11th cover -->
+
+    <section class="section section-lg bg-image d-flex align-items-center min-vh-100 mx-4 novi-background"
+      style="background-image: url(cover/11.jpg)"
+      data-preset='{"title":"Intro","category":"intro","reload":true,"id":"intro-15"}'>
+      <div class="container">
+        <p>11</p>
+        <div class="row justify-content-left novi-disabled">
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-20 fadeInUp" style="text-align: left">
+            <h1 style="color: #ffffff" class="sp1">
+              AI driven infrastructure
+            </h1>
+            <h6 style="color: #ffffff">
+              We specialize in building data center infrastructure using Ai
+              Driven monitoring capabilities.
+            </h6>
+            <a style="background-color: #138ce4" class="btn btn-round btn-primary" href="#our-services">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------cover end ---------------------- -->
+
+    <section class="section section-lg bg-transparent pended-element novi-background"
+      data-preset='{"title":"Features","category":"blurb, tab","reload":true,"id":"testimonials-3"}'>
+      <div id="services" class="container">
+        <h2 class="text-center animated fadeIn" data-animate='{"class":"fadeIn"}'>
+          Our Services
+        </h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contents">
+              <div class="box">
+                <h6 id="build">Build the Infrastructure</h6>
+                <span>
+                  Plan, Design and Build the data center aligned with your
+                  network requirements
+                </span>
+              </div>
+              <div class="box">
+                <h6 id="monitor">Unified Monitoring</h6>
+                <span>
+                  Integrate predictive modeling, AIOPS, and real-time data to
+                  minimize downtime and IT costs
+                </span>
+              </div>
+              <div class="box">
+                <h6 id="tech">Technology Solutions</h6>
+                <span>
+                  Integrate predictive modeling, AIOPS, and real-time data to
+                  minimize downtime and IT costs
+                </span>
+              </div>
+              <div class="box">
+                <h6 id="cable">DC Structured Cabling</h6>
+                <span>
+                  Integrate predictive modeling, AIOPS, and real-time data to
+                  minimize downtime and IT costs
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 serviceImg">
+            <img id="services_image" class="shadow-lg"
+              src="https://www.redspider-design.com/workspace/html/C9/img/HAC_.gif" alt="" width="1280" height="800" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-lg novi-background" style="background-color: #fafafa"
+      data-preset='{"title":"Flotcharts","category":"chart","reload":true,"id":"flotcharts"}'>
+      <div class="container">
+        <h2 class="text-center animated fadeIn" data-animate='{"class":"fadeIn"}'>
+          Delivery Methodology
+        </h2>
+        <div>
+          <img src="./images/Delivery Methodology.gif" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="section6"
+      class="section section-lg fp-auto-height-responsive fp-auto-height text-center novi-background"
+      data-preset='{"title":"Clients","category":"partner","reload":true,"id":"clients-2"}'>
+      <div class="container">
+        <h1 data-animate='{"class":"fadeInUp"}' class="animated fadeInUp">
+          We Worked With Trusted Partners<br />
+        </h1>
+      </div>
+      <div class="owl-carousel owl-style-4 owl-loaded owl-drag"
+        data-owl='{"margin":30,"loop":true,"autoWidth":true,"autoplayTimeout":500,"autoplaySpeed":500,"slideTransition":"linear"}'
+        data-items="15" style="background-color: #138ce4">
+        <div class="owl-stage-outer">
+          <div class="owl-stage" style="
+                transform: translate3d(-780px, 0px, 0px);
+                transition: all 0.5s linear 0s;
+                width: 1380px;
+              ">
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p2.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p2.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p3.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p4.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p5.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p6.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p7.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p8.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p9.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p10.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p11.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p12.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p13.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p14.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p15.png" width="200" height="95" />
+            </div>
+
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p1.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p2.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p2.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p3.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p4.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p5.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p6.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p7.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p8.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p9.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/p10.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned active" style="width: auto; margin-right: 80px">
+              <img src="images/client/p11.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned active" style="width: auto; margin-right: 80px">
+              <img src="images/client/p12.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned active" style="width: auto; margin-right: 80px">
+              <img src="images/client/p13.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned active" style="width: auto; margin-right: 80px">
+              <img src="images/client/p14.png" width="200" height="95" />
+            </div>
+          </div>
+        </div>
+        <div class="owl-nav disabled">
+          <button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation"
+            class="owl-next"></button>
+        </div>
+        <div class="owl-dots disabled"></div>
+        <div class="owl-nav disabled">
+          <button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation"
+            class="owl-next"></button>
+        </div>
+        <div class="owl-dots disabled"></div>
+      </div>
+    </section>
+
+    <section id="section6"
+      class="section section-lg fp-auto-height-responsive fp-auto-height text-center novi-background" style=""
+      data-preset='{"title":"Clients","category":"partner","reload":true,"id":"clients-2"}'>
+      <div class="container">
+        <h1 data-animate='{"class":"fadeInUp"}' class="animated fadeInUp">
+          We Worked With Trusted Partners<br />
+        </h1>
+      </div>
+      <div class="owl-carousel owl-style-4 owl-loaded owl-drag"
+        data-owl='{"margin":30,"loop":true,"autoWidth":true,"autoplayTimeout":500,"autoplaySpeed":500,"slideTransition":"linear"}'
+        data-items="15">
+        <div class="owl-stage-outer">
+          <div class="owl-stage" style="
+                transform: translate3d(-810px, 0px, 0px);
+                transition: all 0.1s linear 2s;
+                width: 1380px;
+              ">
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/corning.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/cpi.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/vertiv.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/elastic-ar21.svg" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/commscope.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/dell.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/redhat.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/legrand.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/raritan.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/cisco-ar21.svg" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/hp-icon.svg" width="200" height="95" />
+            </div>
+
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/grafana-ar21.svg" width="200" height="95" />
+            </div>
+
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/corning.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/cpi.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/vertiv.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/elastic-ar21.svg" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/commscope.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/dell.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/redhat.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/legrand.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/raritan.png" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/cisco-ar21.svg" width="200" height="95" />
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/hp-icon.svg" width="200" height="95" />
+            </div>
+
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px">
+              <img src="images/client/grafana-ar21.svg" width="200" height="95" />
+            </div>
+          </div>
+        </div>
+        <div class="owl-nav disabled">
+          <button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation"
+            class="owl-next"></button>
+        </div>
+        <div class="owl-dots disabled"></div>
+        <div class="owl-nav disabled">
+          <button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation"
+            class="owl-next"></button>
+        </div>
+        <div class="owl-dots disabled"></div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+<section style="background-color: #fff;" class="section section-lg bg-200 text-center novi-background"
+      data-preset="{&quot;title&quot;:&quot;Clients&quot;,&quot;category&quot;:&quot;partner&quot;,&quot;reload&quot;:true,&quot;id&quot;:&quot;clients-2&quot;}">
+      <div class="container">
+        <h2 data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}" class="animated fadeInUp">Trusted by<br><span
+            class="text-primary"><span data-counter="">700</span>+</span> happy clients</h2>
+      </div>
+      <div class="owl-carousel owl-style-4 owl-loaded owl-drag"
+        data-owl="{&quot;margin&quot;:80,&quot;loop&quot;:true,&quot;autoWidth&quot;:true,&quot;autoplayTimeout&quot;:4500,&quot;autoplaySpeed&quot;:4500,&quot;slideTransition&quot;:&quot;linear&quot;}"
+        data-items="9">
+        <div class="owl-stage-outer">
+          <div class="owl-stage"
+            style="transform: translate3d(-3658px, 0px, 0px); transition: all 4.5s linear 0s; width: 6408px;">
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/corning-2.svg" data-src="images/client/corning-2.svg" alt="" width="176" height="41">
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/cpi.png" data-src="images/client/cpi.png" alt="" width="180" height="49"></div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/vertiv.png" data-src="images/client/vertiv.png" alt="" width="133" height="38"></div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/commscope.png" data-src="images/client/commscope.png" alt="" width="180" height="45">
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/dell.png" data-src="images/client/dell.png" alt="" width="107" height="31"></div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/redhat.png" data-src="images/client/redhat.png" alt="" width="154" height="53"></div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/legrand.png" data-src="images/client/legrand.png" alt="" width="204" height="50">
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/raritan.png" data-src="images/client/raritan.png" alt="" width="190" height="43">
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/cisco-ar21.svg" data-src="images/client/cisco-ar21.svg" alt="" width="176"
+                height="41"></div>
+            <div class="owl-item" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/hp-icon.svg" data-src="images/client/hp-icon.svg" alt="" width="150" height="49">
+            </div>
+            <div class="owl-item" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/elastic-ar21.svg" data-src="images/client/elastic-ar21.svg" alt="" width="133"
+                height="38"></div>
+            <div class="owl-item" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/grafana-ar21.svg" data-src="images/client/grafana-ar21.svg" alt="" width="180"
+                height="45"></div>
+            <div class="owl-item" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/corning-2.svg" data-src="images/client/corning-2.svg" alt="" width="107" height="31">
+            </div>
+            <div class="owl-item" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/cpi.png" data-src="images/client/cpi.png" alt="" width="154" height="53"></div>
+            <div class="owl-item" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/vertiv.png" data-src="images/client/vertiv.png" alt="" width="204" height="50"></div>
+            <div class="owl-item active" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/commscope.png" data-src="images/client/commscope.png" alt="" width="190" height="43">
+            </div>
+            <div class="owl-item active" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/dell.png" data-src="images/client/dell.png" alt="" width="176" height="41"></div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/redhat.png" data-src="images/client/redhat.png" alt="" width="180" height="49"></div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/legrand.png" data-src="images/client/legrand.png" alt="" width="133" height="38">
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/raritan.png" data-src="images/client/raritan.png" alt="" width="180" height="45">
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/cisco-ar21.svg" data-src="images/client/cisco-ar21.svg" alt="" width="107"
+                height="31"></div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/hp-icon.svg" data-src="images/client/hp-icon.svg" alt="" width="150" height="53">
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/elastic-ar21.svg" data-src="images/client/elastic-ar21.svg" alt="" width="204"
+                height="50"></div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/grafana-ar21.svg" data-src="images/client/grafana-ar21.svg" alt="" width="190"
+                height="43"></div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/corning-2.svg" data-src="images/client/corning-2.svg" alt="" width="176" height="41">
+            </div>
+            <div class="owl-item cloned" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/cpi.png" data-src="images/client/cpi.png" alt="" width="180" height="49"></div>
+
+            <div class="owl-item cloned action" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/cisco-ar21.svg" data-src="images/client/cisco-ar21.svg" alt="" width="180"
+                height="49"></div>
+            <div class="owl-item cloned action" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/legrand.png" data-src="images/client/legrand.png" alt="" width="180" height="49">
+            </div>
+            <div class="owl-item cloned action" style="width: auto; margin-right: 80px;"><img class="lazy-img"
+                src="images/client/redhat.png" data-src="images/client/redhat.png" alt="" width="180" height="49">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"></button><button
+          type="button" role="presentation" class="owl-next"></button></div>
+      <div class="owl-dots disabled"></div>
+  </div>
+</section>
+<section class="section section-md bg-transparent novi-background" data-preset="{&quot;title&quot;:&quot;Post Classic 3 Column&quot;,&quot;category&quot;:&quot;blog&quot;,&quot;reload&quot;:true,&quot;id&quot;:&quot;post-classic-3-column&quot;}">
+        <div class="container">
+          <div class="row row-40 justify-content-center">
+            <div class="col-xs-10 col-md-6 col-lg-4">
+                    <!-- Post classic-->
+                    <div class="post post-sm"><img class="lazy-img" src="images/image 19.png" data-src="images/image 19.png" alt="" width="400" height="257" style="">
+                      <h5 class="post-title">Break Fix Services</h5>
+                      <div class="post-text">Day to Day operational activities inside your critical facility aligned with Customer and Industry best practice to mitigate any risk associated with downtime and to ensure compliance</div>
+                      <div class="post-meta">
+                        <div class="post-meta-item"><a class="btn btn-info post-btn" href="post.html">Download Datasheet</a></div>
+                      </div>
+                    </div>
+            </div>
+            <div class="col-xs-10 col-md-6 col-lg-4">
+                    <!-- Post classic-->
+                    <div class="post post-sm"><img class="lazy-img" src="images/migration-data-center 1.png" data-src="images/migration-data-center 1.png" alt="" width="400" height="257" style="">
+                      <h5 class="post-title">Migration Services</h5>
+                      <div class="post-text">Moving a link within the DC or moving the entire DC to a new location, leverage Cloud 9 expertise to provide full life cycle of migration services where proven protocols and procedures are followed at every stage of the process</div>
+                      <div class="post-meta">
+                        <div class="post-meta-item"><a class="btn btn-info post-btn" href="post.html">Download Datasheet</a></div>
+                      </div>
+                    </div>
+            </div>
+            <div class="col-xs-10 col-md-6 col-lg-4">
+                    <!-- Post classic-->
+                    <div class="post post-sm"><img class="lazy-img" src="images/audit-data-center 1.png" data-src="images/audit-data-center 1.png" alt="" width="400" height="257" style="">
+                      <h5 class="post-title">DC Audit Services</h5>
+                      <div class="post-text">DC Infrastructure audit provides full visibility of a production environment aligned with standards and best practices<span style="color: #fff;">migration services where proven protocols and procedures are followed at every stage of the process</span></div>
+                      <div class="post-meta">
+                        <div class="post-meta-item"><a class="btn btn-info post-btn" href="post.html">Download Datasheet</a></div>
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------- Partner -------------------- -->
+  <!-- Footer default extended-->
+  <footer class="section footer bg-800 text-400 context-dark pended-element novi-background"
+    data-preset='{"title":"Footer Extended","category":"footer","reload":true,"id":"footer-extended"}'
+    style="background: #fafafa">
+    <div class="container">
+      <div class="row justify-content-between novi-disabled">
+        <div class="col-lg-5">
+          <!-- Logo-->
+          <div class="logo">
+            <a class="logo-link" href="index.html"><img class="lazy-img logo-image-default"
+                src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D"
+                data-src="images/logo-default-114x27.svg" alt="Intense" width="114" height="27" /><img
+                class="lazy-img logo-image-inverse" src="images/logo-default-114x27.png"
+                data-src="images/logo-default-114x27.png" alt="Intense" width="114" height="27" /></a>
+          </div>
+          <!-- <p class="small">
+                Get the most for your website with Intense Multipurpose Website
+                Template, valued by over 3,000 customers worldwide. With a great
+                number of pages, components, elements, and blocks, this
+                responsive Bootstrap template is definitely worth your
+                attention.
+              </p> -->
+        </div>
+        <div class="col-md-11 col-lg-7 col-xxl-6">
+          <div class="row row-20 novi-disabled">
+            <div class="col-auto col-sm-4">
+              <div class="media media-xxs text-white">
+                <div class="media-left">
+                  <span class="icon icon-xs int-phone novi-icon"></span>
+                </div>
+                <div class="media-body">
+                  <ul class="list-item">
+                    <li class="list-item">
+                      <a style="color: #000000" href="tel:#">+1 234 567 8901</a>
+                    </li>
+                    <li class="list-item">
+                      <a style="color: #000000" href="mailto:#">info@example.com</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-auto col-sm-4">
+              <ul class="list list-xs small">
+                <li style="color: #000000" class="list-item">
+                  Mon-Fri: 8am - 6pm
+                </li>
+                <li style="color: #000000" class="list-item">
+                  Sat-Sun: 8am - 4pm
+                </li>
+                <li style="color: #000000" class="list-item">
+                  Holidays: closed
+                </li>
+              </ul>
+            </div>
+            <div class="col-auto col-sm-4">
+              <ul class="list list-xs small">
+                <li class="list-item">
+                  <p style="color: #000000" class="list-item">
+                    Office NO 2 &nbsp; &nbsp; &nbsp;
+                    <a class="icon icon-xs icon-social int-linkedin novi-icon" href="#"></a><br />
+                    High bay building <br />
+                    Silicon Oasis Dubai
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider footer-divider"></div>
+    </div>
+  </footer>
+  </div>
+  <!-- Page Loader-->
+  <div class="page-loader bg-gradient-animated" style="
+        background: rgb(174, 232, 238);
+        background: radial-gradient(
+          circle,
+          rgba(174, 232, 238, 1) 0%,
+          rgba(148, 187, 233, 1) 100%
+        );
+      ">
+    <svg class="page-loader-progress" x="0px" y="0px" width="180" height="180" viewBox="0 0 180 180">
+      <circle class="page-loader-circle" cx="90" cy="90" r="88"></circle>
+    </svg>
+    <div class="page-loader-inner">
+      <div class="page-loader-inner-side page-loader-inner-side-1">
+        <img class="page-loader-logo" src="images/logo-default-114x27.svg" alt="" width="114" height="27"
+          data-target=".page-loader-inner" />
+      </div>
+      <div class="page-loader-inner-side page-loader-inner-side-2">
+        <img class="page-loader-logo" src="images/logo-default-114x27.png" alt="" width="114" height="27"
+          data-target=".page-loader-inner" />
+      </div>
+    </div>
+  </div>
+  <div class="notifications-area" id="notifications-area"></div>
+</body>
+<script>
+  const buildHeading = document.getElementById("build");
+  const monitorHeading = document.getElementById("monitor");
+  const techHeading = document.getElementById("tech");
+  const cableHeading = document.getElementById("cable");
+  buildHeading.addEventListener("mouseover", function handleMouseOver() {
+    $("#services_image").attr(
+      "src",
+      "https://www.redspider-design.com/workspace/html/C9/img/HAC_.gif"
+    );
+  });
+  monitorHeading.addEventListener("mouseover", function handleMouseOver() {
+    $("#services_image").attr(
+      "src",
+      "https://cdn.dribbble.com/users/980520/screenshots/2859415/monitoring.gif"
+    );
+  });
+  techHeading.addEventListener("mouseover", function handleMouseOver() {
+    $("#services_image").attr(
+      "src",
+      "https://cdn.dribbble.com/users/26540/screenshots/1423680/screengrab01.gif"
+    );
+  });
+  cableHeading.addEventListener("mouseover", function handleMouseOver() {
+    $("#services_image").attr(
+      "src",
+      "https://cdn.dribbble.com/users/3191392/screenshots/6744953/dribbble.gif"
+    );
+  });
+</script>
+
+</html>

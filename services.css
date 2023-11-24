@@ -1,0 +1,83 @@
+/* /* .planning_element:hover {
+  font-size: 20px;
+  font-size-adjust: 20px;
+} */
+
+.planning_element:hover ~ text.planning_element {
+  font-size: 20px;
+  /* font-size-adjust: 20px; */
+}
+
+.planning_element:hover ~ text.design_element {
+  font-size: small;
+  /* transform: translate(3px, 0); */
+  /* transform: rotate(60); */
+}
+
+.col-lg-6 header.title {
+  padding: 0px 0px 20px 30px;
+}
+
+.col-lg-6 .contents {
+  padding: 0px 30px;
+  border-left: 2px solid #699bf7;
+}
+
+.col-lg-6 .contents .box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.col-lg-6 .contents .box::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  right: calc(100% + 22px);
+  top: 0;
+  background-color: #2889e0;
+  border: 2px solid white;
+}
+
+#services span {
+  font-size: smaller;
+}
+
+#services h6:hover {
+  font-size: larger;
+  font-weight: bolder;
+  color: #2889e0;
+}
+
+#services h6:hover + span {
+  color: #000;
+  font-weight: 400;
+}
+
+.serviceImg {
+  display: flex;
+  justify-content: center;
+}
+
+/* span.build {
+  animation: cssAnimationHide 0s 5s forwards;
+  visibility: visible;
+}
+
+span.monitor {
+  animation: cssAnimationShow 0s 5s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimationShow {
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes cssAnimationHide {
+  to {
+    visibility: hidden;
+  }
+} */
